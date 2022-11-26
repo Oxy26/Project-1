@@ -69,6 +69,8 @@
     .header__link{
         font-size: 12px;
         line-height: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
         color: #333333;
         text-decoration: none;
     }
@@ -101,3 +103,9 @@
         color:#333333;
         margin-top: 0em;
     }
+    .project1__wrap{
+        display: grid;
+        margin-bottom: 60px;
+    }
+    
+
