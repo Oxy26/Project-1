@@ -32,7 +32,7 @@
         box-sizing: inherit;
     }
     body{
-        font-family:'Roboto',Arial, Helvetica, sans-serif;
+        font-family:'Roboto';
         font-style: normal;
         font-size: 16px;
         line-height: 1.2;
@@ -45,7 +45,6 @@
     }
     /*style_header_start*/
     .header{
-        background-color: gray;
         position: fixed;
         top: 0;
         left: 0;
@@ -80,3 +79,25 @@
         opacity: 0.75;
     }
     /*style_header_end*/
+    
+    /*styly_project1_start*/
+
+    .project1{
+        height: 100vh;
+        padding-top: 90px;
+    }
+    
+    .project1__title{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        color: #BDBDBD;
+        margin-bottom: 0em;
+    }
+    .project1__title1{
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        color:#333333;
+        margin-top: 0em;
+    }
