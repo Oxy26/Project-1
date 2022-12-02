@@ -1,3 +1,5 @@
+@import url('header.css');
+
 .body {
     margin-left: 135px;
     margin-right: 135px;
@@ -7,7 +9,8 @@
     grid-area: section__carousel;
     grid-template-areas: 
     "section__carousel__title section__carousel__image";
-    grid-template-columns: 2fr 1fr;    
+    grid-template-columns: 2fr 1fr; 
+    margin-top: 105px;   
 }
 
 .section__carousel__title {
@@ -233,12 +236,33 @@
 }
 .section__galery__image1__title{
     position: absolute;
+    top: 10%;
+    left: 10%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #FFFFFF;
+}
+.section__galery__image1__link {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
 }
 .mar{
     margin: 15px;
@@ -249,41 +273,16 @@
     flex-direction: row;
 
 }
-.section__galery__image1 {
-    display: flex;
+.section__galery__item1__text {
     position: relative;
+    text-align: center;
 }
 
-
-.section__galery__image2 {
-    display: grid;
-    grid-area: section__galery__image2;
-    
-}
 .section__galery__item2 {
     display: flex;
     flex-direction: row;
-
-}
-
-.section__galery__image3 {
-    display: grid;
-    grid-area: section__galery__image3;
-    
-}
-.section__galery__image4 {
-    display: grid;
-    grid-area: section__galery__image4;
-    
-}
-.section__galery__image5 {
-    display: grid;
-    grid-area: section__galery__image5;
-    
 }
 .section__galery__button {
-    display: grid;
-    grid-area: section__galery__button;
     margin-top: 30px;
     height: 71px;
     width: 222px;
