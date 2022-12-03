@@ -1,47 +1,6 @@
-.body {
-    height: 100vh;
-    font-family: 'Roboto';
-    font-style: normal;
-}
+@import url('header.css');
 
-.header {
-    width: 100%;
-
-}
-
-.divheader {
-    display: flex;
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-
-#logoheader {
-    padding-left: 135px;
-}
-
-nav {
-    padding-left: 330px;
-}
-
-.ul {
-    display: flex;
-    list-style: none;
-    font-weight: 400;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-#ul-main {
-    border-top: #333333 solid 1px;
-    border-bottom: #333333 solid 1px;
-    padding-bottom: 0;
-}
-
-.a-ul {
-    color: #333333;
-    text-decoration: none;
-    margin-right: 50px;
-}
+@import url('footer.css');
 
 .main {
     width: 100%;
@@ -113,73 +72,6 @@ h1 {
     text-transform: uppercase;
 }
 
-/*Стили для футера*/
-
-.footer {
-    width: 100%;
-    padding-top: 58px;
-    height: 350px;
-    background-color: #2C2C2C;
-    color: white;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 12px;
-}
-
-.footer-logo {
-    width: 145px;
-    height: 94px;
-}
-
-.fooret-links {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 116px;
-    padding-right: 210px;
-    padding-bottom: 55px;
-}
-
-.footer-link {
-    display: flex;
-    flex-direction: column;
-}
-
-p {
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.footer-link-a {
-    margin-bottom: 15px;
-}
-
-a {
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    padding-bottom: 15px;
-}
-
-.contacts {
-    padding-bottom: 31px;
-}
-
-.svg {
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-}
-
-hr {
-    opacity: 0.1;
-    border: 1px solid #FFFFFF;
-}
-
-.footer-footer {
-    padding-top: 24px;
-    color: #C8C8C8;
-    font-size: 12px;
-    padding-left: 45%;
+.map {
+    margin-top: 105px;
 }

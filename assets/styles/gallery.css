@@ -1,3 +1,7 @@
+
+@import url('header.css');
+@import url('footer.css');
+
 .flexcontainer {
     border: 5 px solid black;
     flex-direction: row;
@@ -8,35 +12,34 @@
     height: 100px;
     border-top-width: 100px;
 }
-
-.block--0 {
-    width: 210px;
-    height: 110px;
-    margin: 80px;
-
+.block__0 {
+    margin-left: 135px;
+    margin-top: 165px;
 }
-
-
-.flexcontainer {
-    border: 5 px solid black;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    border-top-width: 10px;
-}
-
 .block {
     width: 210px;
     height: 260px;
     margin: 30px;
-    border: 1px solid green;
+    border: 1px;
 }
-
 .container {
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.project1__title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+color: #BDBDBD;
+}
+.project1__title1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+color: #333333;
 }

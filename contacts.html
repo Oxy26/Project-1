@@ -5,25 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="contacts.css">
+    <link rel="stylesheet" href="./assets/styles/normalize.css"/>
+    <link rel="stylesheet" href="./assets/styles/contacts.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 
 <body class="body">
     <header class="header">
-        <div class="divheader">
-            <img id="logoheader" src="Group11.png" alt="лого">
-            <nav>
-                <ul class="ul">
-                    <li><a class="a-ul" id="ul-main" href="#">Main</a></li>
-                    <li><a class="a-ul" href="#">Gallery</a></li>
-                    <li><a class="a-ul" href="#">Projects</a></li>
-                    <li><a class="a-ul" href="#">Certifications</a></li>
-                    <li><a class="a-ul" href="#">Contacts</a></li>
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="heder__logo">
+                <a href="/" class="header__logo-link">
+                    <img src="assets/images/logo.svg"alt="Website of arhitects">
+                </a>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="/" class="header__link">Main</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="/" class="header__link">Gallery</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="/" class="header__link">Projects</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="/" class="header__link">Certifications</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="/" class="header__link">Contacts</a>
+                    </li>
                 </ul>
             </nav>
         </div>
+        </div>  
     </header>
     <main class="main">
         <div class="flex">
@@ -41,13 +59,13 @@
                 </button>
             </div>
 
-            <div style="position:relative;overflow:hidden;"><a
+            <div class="map"><a
                     href="https://yandex.ru/maps/org/khrabrovo/1062739026/?utm_medium=mapframe&utm_source=maps"
                     style="color:#eee;font-size:12px;position:absolute;top:0px;">Храброво</a><a
                     href="https://yandex.ru/maps/10857/kaliningrad-oblast/category/airport/184108111/?utm_medium=mapframe&utm_source=maps"
                     style="color:#eee;font-size:12px;position:absolute;top:14px;">Аэропорт в Калининградской
-                    области</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUjEBa69C" width="560" height="400"
-                    frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+                    области</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUjEBa69C" width=560px;
+                    height=400px; frameborder="1" allowfullscreen="true"></iframe>
             </div>
         </div>
     </main>
