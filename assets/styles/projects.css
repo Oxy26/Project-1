@@ -12,6 +12,8 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
+    background-color: #fbfbfb;
+    padding: 20px 10px 0 10px;
 }
 
 .project2__pic2{
@@ -26,6 +28,8 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
+    background-color: #fbfbfb;
+    padding: 20px 10px 0 10px;
 }
 
 .project3__pic3{
@@ -40,4 +44,37 @@
     font-size: 16px;
     line-height: 25px;
     color: #000000;
+    background-color: #fbfbfb;
+    padding: 20px 10px 0 10px;
+}
+
+button {
+    width: 222px;
+    height: 71px;
+    background-color: #FFFFFF;
+    border: none !important;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-left: 700px;
+    margin-top: 40px;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.font {
+font-family: Roboto;
+font-size: 40px;
+font-weight: 300;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+color: #BDBDBD;
 }
