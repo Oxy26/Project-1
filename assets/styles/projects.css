@@ -3,6 +3,8 @@
 .project1__pic1{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 120%;
+    height: 125%;
     
 }
 .project1__text{
@@ -18,12 +20,14 @@
 
 .project2__pic2{
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 3/4;
+    width: 120%;
+    height: 125%;
     
 }
 .project2__text{
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
@@ -34,12 +38,14 @@
 
 .project3__pic3{
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    width: 120%;
+    height: 125%;
     
 }
 .project3__text{
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 5/6;
     font-weight: 300;
     font-size: 16px;
     line-height: 25px;
@@ -49,8 +55,8 @@
 }
 
 button {
-    width: 222px;
-    height: 71px;
+    width: 180px;
+    height: 51px;
     background-color: #FFFFFF;
     border: none !important;
     color: #333333;
@@ -62,8 +68,9 @@ button {
     font-weight: 400;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -77,4 +84,14 @@ line-height: 47px;
 letter-spacing: 0em;
 text-align: left;
 color: #BDBDBD;
+margin-top: 10px;
+}
+
+.project1__wrap {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 0.35fr 1fr;
+    margin-top: 60px;
+    grid-auto-flow: row;
+    gap: 10px;
 }
